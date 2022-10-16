@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    font-family: "Inter";
+    background-color: rgb(50, 50, 50);
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+.navbar * {
+    background-color: rgb(30, 30, 30);
+}
+
+.reactfacts > * {
+    background-color: rgb(30, 30, 30);
+}
+
+.reactfacts {
+    background-color: rgb(30, 30, 30);
+    color: aqua;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 25px;
+    color: white;
+}
+
+.mainhead {
+    padding-bottom: 20px;
+}
+
+.list > * {
+    list-style: none;
+    padding: 10px;
+}
+
+.list > li:before {
+    display: inline-block;
+    margin-right: 5px;
+    content: "";
+    position: relative;
+    right: 5px;
+    border: solid;
+    border-width: 5px;
+    border-radius: 300px;
+    border-color: aqua;
+}
